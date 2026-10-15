@@ -20,7 +20,7 @@ window.addEventListener("DOMContentLoaded", function () {
         result.textContent = "";
 
         if (!quantityPattern.test(quantityText)) {
-            errorMessage.textContent = "Ошибка: введите количество товара целым положительным числом (только цифры, без пробелов и букв).";
+            errorMessage.textContent = "Ошибка: введите количество товара целым положительным числом.";
             return;
         }
 
